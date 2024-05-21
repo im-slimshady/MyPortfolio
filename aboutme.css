@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: large;
-  background-image: url('BodyBG.jpg');
+  background-image: url('https://github.com/im-slimshady/MyPortfolio/blob/main/BG.png?raw=true');
 }
 
 h1, h2, h3 {
@@ -50,7 +50,7 @@ header {
   background-repeat: repeat; /* Repeat the background image */
   background-position: center; /* Center the background image */
   color: #ffffff; /* Set white text color*/
-  background-image: url("BodyBG.jpg");
+  background-image: url('https://github.com/im-slimshady/MyPortfolio/blob/main/BG.png?raw=true');
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -432,7 +432,7 @@ nav a:hover {
   color: #0044ff; /* Change the color to white on hover */
 }
 
-/* New CSS class for centering content */
+/* CSS class for centering content */
 .centered-content {
   display: flex;
   justify-content: left;
