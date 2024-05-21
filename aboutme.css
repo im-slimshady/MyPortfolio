@@ -1,0 +1,442 @@
+.section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff; /* White background */
+  color: #fff;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}  
+
+body {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  font-size: large;
+  background-image: url('BodyBG.jpg');
+}
+
+h1, h2, h3 {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #0099ff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between; /* Center elements horizontally */
+  align-items: center; /* Align vertically */
+  padding: 20px;
+  background-repeat: repeat; /* Repeat the background image */
+  background-position: center; /* Center the background image */
+  color: #ffffff; /* Set white text color*/
+  background-image: url("BodyBG.jpg");
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid #ffffff; /* White border for the profile picture */
+}
+
+.profile h2 {
+  margin-left: 15px;
+  font-size: 1.5em;
+}
+
+.profile p {
+  margin-left: -302px;
+  font-size: 1em;
+  margin-top: 50px;
+}
+.contact-info h2 {
+  margin-bottom: 10px;
+  color: #fcfcfc;
+}
+
+.contact-info a {
+  color: inherit; /* Inherit white text color from header */
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline; /* Underline links on hover */
+  color: #007bff; /* Change link color to blue on hover */
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* About Me Styles */
+.profile h2 {
+  margin-top: 0;
+}
+
+/* About Me Styles */
+.about-me {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-image: url('https://data.1freewallpapers.com/download/lines-abstract-background-point-scheme-background-free.jpg');
+  border-radius: 50px;
+  border: 2px solid #ddd;
+}
+
+.about-me h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #007bff; /* Blue heading text */
+  text-decoration: underline; /* Underline the heading */
+  text-align: center;
+}
+
+.about-me p {
+  line-height: 1.5;
+  font-style: italic; /* Italicize the text for a personal touch */
+  color: #333; /* Darker gray text */
+  margin-left: 20px; /* Indent the paragraph to create visual separation */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Text shadow */
+  color: rgb(236, 236, 236);
+  text-align: center;
+}
+
+/* Projects Section Styling */
+#projects {
+  background-image: url('https://data.1freewallpapers.com/download/lines-abstract-background-point-scheme-background-free.jpg');
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow effect */
+  border-left: 5px solid #007bff; /* Blue border on the left side */
+}
+
+#projects h2 {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  color: #ffffff; /* White text for heading */
+}
+
+#projects ul {
+  list-style: none;
+  padding-left: 0; /* Reset default padding */
+}
+
+#projects li {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between; /* Align items horizontally */
+  align-items: center; /* Align text and link vertically */
+  border-bottom: 1px solid #ddd; /* Light gray border between projects */
+  padding-bottom: 10px; /* Add space below border */
+}
+
+#projects li:last-child { /* Style the last list item to remove bottom border */
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+#projects h4 {
+  flex: 1; /* Allow text to grow within available space */
+  font-weight: bold;
+  color: #007bff; /* Blue text for project titles */
+}
+
+#projects a {
+  color: #e7e7e7; /* Dark gray text for links */
+  text-decoration: none;
+}
+
+#projects a:hover {
+  text-decoration: underline;
+  color: #007bff; /* Blue on hover for links */
+}
+
+
+/* Skills Styles */
+#skills {
+  background-image: url('https://data.1freewallpapers.com/download/lines-abstract-background-point-scheme-background-free.jpg');
+  border-radius: 5px;
+  padding: 20px;
+  border-left: 5px solid #007bff; /* Blue border on the left side */
+}
+
+#skills h2,
+#skills p {
+  margin-bottom: 15px;
+}
+
+#skills h2 {
+  font-size: 1.2em;
+  color: #ffffff; /* White text for heading */
+}
+
+#skills p { /* Style the skill category titles */
+  font-weight: bold;
+  color: #007bff; /* Blue text for skill categories */
+  border-left: 5px solid #007bff; /* Blue bar on left for emphasis */
+  padding-left: 10px; /* Add space after blue bar */
+}
+
+#skills ul {
+  list-style: none;
+  padding-left: 20px; /* Indent list items */
+  margin-left: 20px; /* Add space between list items and border */
+  border-left: 1px solid #ddd; /* Light gray border on left for skills */
+  padding-top: 10px; /* Add space above border */
+}
+
+#skills ul li {
+  margin-bottom: 10px;
+  line-height: 1.5; /* Increase line spacing for readability */
+}
+
+#skills ul li:before {
+  content: "\f0e9"; /* Font Awesome icon for progress bar */
+  font-family: FontAwesome; /* Replace with your icon font family */
+  font-size: 12px;
+  color: #007bff; /* Blue for icons */
+  margin-right: 10px; /* Add space between icon and text */
+}
+
+
+/* Experience Section Styling */
+#experience {
+  background-image: url('https://data.1freewallpapers.com/download/lines-abstract-background-point-scheme-background-free.jpg');
+  border-radius: 5px;
+  padding: 20px;
+  border-left: 5px solid #007bff; /* Blue border on left side */
+}
+
+#experience h2,
+#experience p {
+  margin-bottom: 15px;
+}
+
+#experience p {
+  font-weight: bold;
+  color: #007bff; /* Blue text for skill categories */
+  border-left: 5px solid #007bff; /* Blue bar on left for emphasis */
+  padding-left: 10px; /* Add space after blue bar */
+}
+
+#experience h2 {
+  font-size: 1.2em;
+  color: #ffffff; /* White text for heading */
+}
+
+#experience p strong {
+  font-weight: bold;
+  color: #007bff; /* Blue text for bold sections (responsibilities, achievements) */
+}
+
+#experience ul {
+  list-style: none;
+  padding-left: 20px; /* Indent list items */
+  margin-left: 20px; /* Add space between list items and border */
+  border-left: 1px solid #ddd; /* Light gray border on left for responsibilities/achievements */
+  padding-top: 10px; /* Add space above border */
+}
+
+#experience ul li {
+  margin-bottom: 10px;
+  line-height: 1.5; /* Increase line spacing for readability */
+}
+
+#experience ul li:before {
+  content: "\f00c"; /* Font Awesome icon for checkmark */
+  font-family: FontAwesome; /* Replace with your icon font family */
+  font-size: 12px;
+  color: #007bff;
+  margin-right: 10px; /* Add space between icon and text */
+}
+
+#education {
+  background-image: url('https://data.1freewallpapers.com/download/lines-abstract-background-point-scheme-background-free.jpg');
+  border-radius: 5px;
+  padding: 20px;
+  border-left: 5px solid #007bff; /* Blue border on left side */
+}
+
+#education h2 {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  color: #ffffff; /* White text for heading */
+}
+
+#education ul {
+  list-style: none;
+  padding-left: 0; /* Reset default padding */
+}
+
+#education li {
+  margin-bottom: 10px;
+  line-height: 1.2; /* Adjust line height for better spacing */
+}
+
+#education li:before {
+  content: "\f1eb"; /* Font Awesome icon for graduation cap */
+  font-family: FontAwesome; /* Replace with your icon font family */
+  font-size: 16px;
+  color: #007bff; /* Blue color for icon */
+  margin-right: 10px; /* Add space between icon and text */
+}
+
+/* Achievements Styles */
+#achievements {
+  background-image: url('https://data.1freewallpapers.com/download/lines-abstract-background-point-scheme-background-free.jpg');
+  border-radius: 5px;
+  padding: 20px;
+  border-left: 5px solid #007bff; /* Blue border on left side */
+}
+
+#achievements h2 {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  color: #ffffff; /* White text for heading */
+}
+
+.achievements-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
+  grid-gap: 10px;
+}
+
+.achievements-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover; /* Scale images to fit within container */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Add hover effect to highlight achievements on hover */
+.achievements-container img:hover {
+  opacity: 0.8; /* Reduce opacity slightly on hover */
+  cursor: pointer; /* Indicate clickable element */
+}
+
+/* Lightbox Styles */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+/* References Styles */
+#references {
+  background-image: url('https://data.1freewallpapers.com/download/lines-abstract-background-point-scheme-background-free.jpg');
+  border-radius: 5px;
+  padding: 20px;
+  border-left: 5px solid #007bff; /* Blue border on left side */
+}
+
+#references h2 {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  color: #ffffff; /* White text for heading */
+}
+
+#references ul {
+  list-style: none;
+  padding-left: 0; /* Reset default padding */
+}
+
+#references li {
+  margin-bottom: 10px;
+  line-height: 1.2; /* Adjust line height for better spacing */
+}
+
+#references li:before {
+  content: "\f0e0"; /* Font Awesome icon for a reference mark */
+  font-family: FontAwesome; /* Replace with your icon font family */
+  font-size: 16px;
+  color: #007bff; /* Blue color for icon */
+  margin-right: 10px; /* Add space between icon and text */
+}  
+
+nav {
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure it stays on top */
+  background-image: url('https://data.1freewallpapers.com/download/lines-abstract-background-point-scheme-background-free.jpg');
+}
+
+nav ul {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: medium;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #c4c4c4;
+  transition: color 0.3s; /* Smooth transition effect for color change */
+}
+
+nav a:hover {
+  color: #0044ff; /* Change the color to white on hover */
+}
+
+/* New CSS class for centering content */
+.centered-content {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  text-align: left;
+}
